@@ -1,0 +1,18 @@
+{
+"id": "KIRA-IDO-TEST",
+"network_props": [{
+	    "id": "cosmos-testnet",
+		"prefix": "cosmos",
+		"hosts": ["https://cosmos-testnet-ldc.simply-vc.com.mt", "https://lcd.gaia.bigdipper.live"],
+		"token": { "denom": "umuon", "decimals": 6 },
+		"validator_whitelist": [ "cosmosvaloper1w2ylyvp8umr95xlj74xe2alza6g6aypz45k90u" ],
+                "validator_blacklist": []
+	},{
+		"id": "cosmos-mainnet",
+		"prefix": "cosmos",
+		"hosts": [ "https://cosmos-ldc.simply-vc.com.mt", "https://lcd.nylira.net" ],
+		"token": { "denom": "uatom","decimals": 6 },
+		"validator_whitelist": [ "cosmosvaloper16qme5yxucnaj6snx35nmwze0wyxr8wfgqxsqfw" ],
+                "validator_blacklist": []
+	}]
+}

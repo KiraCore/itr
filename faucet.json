@@ -1,0 +1,265 @@
+[{
+		"id": 0,
+		"amount": 50000,
+		"prefix": "cosmos",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 180,
+		"min_activity": 0,
+	        "ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://cosmos-testnet-ldc.simply-vc.com.mt", "https://lcd.gaia.bigdipper.live"],
+		"tokens": [{
+			"denom": "umuon",
+			"aliases": ["muon", "muons", "umuon", "umuons"],
+			"decimals": 6
+		}],
+		"native_chats": [-1001186681490, -1001433363020]
+	},
+	{
+		"id": 1,
+		"amount": 50000,
+		"prefix": "sent",
+		"gas": 500000,
+		"fees": 100,
+		"memo": "@InterchainWalletBot by KiraEx.com, LCD by DragonStake.io",
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://lcd.turing.dragonstake.io"],
+		"tokens": [{
+			"denom": "tsent",
+			"aliases": ["tsent", "sent" ]
+		}],
+		"native_chats": [-1001140447046, -1001341953904, -1001192516192, -1001440800285]
+	},
+	{
+		"id": 2,
+		"amount": 10000,
+		"prefix": "cosmos",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 86400,
+		"min_activity": 100,
+		"ref_activity_bonus": 10,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://cosmos-ldc.simply-vc.com.mt", "https://lcd.nylira.net"],
+		"tokens": [{
+			"denom": "uatom",
+			"aliases": ["atom", "atoms", "uatom", "uatoms"],
+			"decimals": 6
+		}],
+		"native_chats": [-1001127478087, -1001295022017, -1001323641888, -1001408716023]
+	},
+	{
+		"id": 3,
+		"amount": 50000,
+		"prefix": "xrn:",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://regen-ldc.simply-vc.com.mt", "https://regen-lcd.chorus.one:1317"],
+		"tokens": [{
+				"denom": "tree",
+				"aliases": ["ttree", "tree"]
+			},
+			{
+				"denom": "seed",
+				"aliases": ["tseed", "seed"]
+			}
+		],
+		"native_chats": [-1001312344775]
+	},
+	{
+		"id": 5,
+		"amount": 5000000,
+		"prefix": "cyber",
+		"gas": 500000,
+		"fees": 1,
+		"rate_limit": 900,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://titan.cybernode.ai/lcd"],
+		"tokens": [{
+			"denom": "eul",
+			"aliases": ["teul","eul"]
+		}],
+		"native_chats": [-1001187351352]
+	},
+	{
+		"id": 6,
+		"type": "iris",
+		"amount": 50000,
+		"prefix": "faa",
+		"gas": 500000,
+		"fees": 50,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://lcd.testnet.irisnet.org"],
+		"tokens": [{
+			"denom": "iris-atto",
+			"aliases": ["tiris"],
+			"decimals": 18
+		}]
+	},
+	{
+		"id": 7,
+		"amount": 50000,
+		"prefix": "kava",
+		"gas": 500000,
+		"fees": 50,
+		"memo": "@InterchainWalletBot by KiraEx.com, LCD by DragonStake.io",
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://lcd.kava.dragonstake.io"],
+		"tokens": [{
+			"denom": "ukava",
+			"aliases": ["kava", "ukava"],
+			"decimals": 6
+		}]
+	},
+	{
+		"id": 8,
+		"amount": 50000,
+		"prefix": "terra",
+		"gas": 500000,
+		"fees": 50,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://lcd.terra.bigdipper.live"],
+		"tokens": [{
+			"denom": "uluna",
+			"aliases": ["tluna", "tuluna", "luna"],
+			"decimals": 6
+		}]
+	},
+	{
+		"id": 9,
+		"amount": 10000,
+		"prefix": "emoney",
+		"gas": 500000,
+		"fees": 50,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://emoney-ldc.simply-vc.com.mt", "https://lilmermaid.validator.network/light"],
+		"tokens": [{
+				"denom": "x3ngm",
+				"decimals": 3,
+				"aliases": ["tngm", "t3ngm", "tx3ngm", "tngm", "ngm"]
+			},
+			{
+				"denom": "x2eur",
+				"decimals": 2,
+				"aliases": ["t2eur", "tx2eur", "teur", "eur"]
+			},
+			{
+				"denom": "x2chf",
+				"decimals": 2,
+				"aliases": ["t2chf", "x2chf", "tchf", "chf" ]
+			},
+			{
+				"denom": "x0jpy",
+				"decimals": 0,
+				"aliases": ["t0jpy", "x0jpy", "tjpy", "jpy"]
+			}
+		]
+	},
+	{
+		"id": 13,
+		"amount": 10000,
+		"prefix": "did:com:",
+		"gas": 500000,
+		"fees": 50,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://lcd-testnet.commercio.network"],
+		"tokens": [{
+			"denom": "ucommercio",
+			"aliases": ["tcomm", "tcomms", "tucommercio", "comm"]
+		}]
+	},
+	{
+		"id": 14,
+		"amount": 10000,
+		"prefix": "bitsong",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://lcd.testnet-2.bitsong.network"],
+		"tokens": [{
+			"denom": "ubtsg",
+			"aliases": ["TBTSG", "BTSG"],
+			"decimals": 6
+		}]
+	},
+        {
+		"id": 15,
+		"amount": 10000,
+		"prefix": "cosmos",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://node.taipei.like.co"],
+		"tokens": [{
+			"denom": "nanolike",
+			"aliases": ["TLIKE", "TESTLIKE","TNLIKE","TNANOLIKE"],
+			"decimals": 9
+		}],
+		"native_chats": [-1001326321879]
+	},
+        {
+		"id": 16,
+		"amount": 10000,
+		"prefix": "cosmos",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["https://mainnet-node.like.co"],
+		"tokens": [{
+			"denom": "nanolike",
+			"aliases": ["LIKE", "NLIKE","NANOLIKE"],
+			"decimals": 9
+		}]
+	},
+        {
+		"id": 17,
+		"amount": 10000,
+		"prefix": "desmos",
+		"gas": 500000,
+		"fees": 100,
+		"rate_limit": 60,
+		"min_activity": 0,
+		"ref_activity_bonus": 1,
+	        "ref_fucet_bonus": 100,
+		"lcds": ["http://lcd.morpheus.desmos.network:1317"],
+		"tokens": [{
+			"denom": "udaric",
+			"aliases": ["DARIC", "UDARIC", "TDARIC", "UTDARIC"],
+			"decimals": 6
+		}]
+	}
+]
